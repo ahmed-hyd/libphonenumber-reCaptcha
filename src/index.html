@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html dir="ltr" lang='en'>
+
+<head>
+  <meta charset="UTF-8">
+  <title>LibPhoneNumber POC</title>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <style>
+    #skip-link-layer {
+      display: none !important;
+    }
+
+    body.loading {
+      margin: 0;
+      width: 100vw;
+      height: 100vh;
+      /* background-image: radial-gradient(circle at 50% 15%, #fff, #fff 30%, #ccc); */
+    }
+
+    body.loading #grommet-content {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      font-size: 0;
+    }
+
+    body.loading #logo {
+      position: absolute;
+      display: block;
+      width: 140px;
+      height: 140px;
+      top: calc(50vh - 70px);
+      left: calc(50vw - 70px);
+    }
+
+    .loader-dots {
+      position: relative;
+      margin: 20px auto;
+      height: 20px;
+      width: 100px;
+    }
+
+    .loader-dots .dot {
+      float: left;
+      height: 10px;
+      width: 10px;
+      margin: 0 4px;
+      padding: 2px;
+      border-radius: 50%;
+      border: 3px solid #cccccc;
+      background-color: #fff;
+      animation: filldot 1s infinite ease, emptydot 3s infinite ease;
+    }
+
+    @keyframes filldot {
+      0% {
+        background-color: #cccccc;
+      }
+      100% {
+        background-color: #01A982;
+      }
+    }
+
+    @keyframes emptydot {
+      0% {
+        background-color: #01A982;
+      }
+      100% {
+        background-color: #cccccc;
+      }
+    }
+
+    .loader-dots .dot:nth-child(1) {
+      animation-delay: -0.70s;
+    }
+
+    .loader-dots .dot:nth-child(2) {
+      animation-delay: -0.40s;
+    }
+
+    .loader-dots .dot:nth-child(3) {
+      animation-delay: -0.10s;
+    }
+  </style>
+</head>
+<body class="loading">
+  <div id="grommet-content" tabindex='-1'>
+    <div id="logo">
+      <div class="loader-dots">
+        <i class="dot"></i>
+        <i class="dot"></i>
+        <i class="dot"></i>
+      </div>
+    </div>
+  </div>
+  <script src="/index.js"></script>
+</body>
+
+</html>

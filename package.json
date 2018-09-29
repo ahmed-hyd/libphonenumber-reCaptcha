@@ -1,0 +1,37 @@
+{
+  "name": "libphonenumber-js-ie-issue",
+  "version": "1.0.13",
+  "main": "src/js/index.js",
+  "description": "libphonenumber-js ie issue",
+  "license": "MIT",
+  "dependencies": {
+    "awesome-phonenumber": "^2.2.2",
+    "copy-to-clipboard": "^3.0.5",
+    "grommet": "1.1.0",
+    "gulp-sass": "^3.1.0",
+    "input-format": "^0.1.15",
+    "jquery": "^3.1.1",
+    "js-cookie": "^2.1.3",
+    "libphonenumber-js": "^0.4.43",
+    "lodash": "^4.16.4",
+    "moment": "^2.15.1",
+    "react": "15.4.2",
+    "react-async-script": "^0.9.1",
+    "react-document-meta": "^2.0.3",
+    "react-dom": "15.4.2",
+    "react-intl": "^2.1.5",
+    "react-router": "^2.8.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-preset-es2015": "^6.3.x",
+    "babel-preset-react": "^6.3.x",
+    "babel-register": "^6.5.x",
+    "grommet-index": "^1.0.1",
+    "grommet-toolbox": "^1.0.5",
+    "gulp": "^3.9.x",
+    "gulp-bump": "^2.4.x",
+    "gulp-jsoncombine": "^1.0.x",
+    "semver": "^5.5.1"
+  }
+}
