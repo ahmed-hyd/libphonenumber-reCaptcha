@@ -131,7 +131,6 @@ export default class TelInput extends Component {
 
   _onChange(value) {
     console.log("Inside TelInput _Onchange");
-    debgger;
     this.setState({ value: value, error: '' });
     if (this.props.onChange) { // check if parent component has onChange event.
       // Update input value to the parent componet onChange
